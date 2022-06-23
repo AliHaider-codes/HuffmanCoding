@@ -14,9 +14,8 @@ using namespace queue;
 
 #define maxAltezzaAlbero 500
 
-vector<char> leggiVettoreDaFile(string nome_file)
-{
-	ifstream ifs(nome_file.c_str());
+vector<char> leggiVettoreDaFile(string nome_file){
+    ifstream ifs(nome_file.c_str());
     vector<char> v;
     char dato;
     ifs>>dato;
